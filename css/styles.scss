@@ -1,0 +1,84 @@
+body{
+    margin: 0; 
+    background-color: #000000;
+    font-family: inherit;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.img-container {
+    display: flex; 
+    width: 25%;
+}
+h3 {
+    margin: 3% 7% 7% 7%;
+}
+h5 {
+    margin: 3% 7% 7% 7%
+}
+cup-wine {
+    width: 25%;
+    // position: absolute;
+    // z-index: 1;
+    // margin-bottom: 300px;
+    // margin-top: -900px;
+    // /* margin: -1000px; */
+    // width: 200px;
+    // margin-left: 100px;
+    // opacity: 0.8;
+        .wine {
+            width: 400px;
+        }
+        
+}
+img.logo {
+    position: absolute;
+    z-index: 1;
+    margin-top: -900px;
+    /* margin: -1000px; */
+    width: 200px;
+    margin-left: 100px;
+    opacity: 0.8;
+}
+
+.wine-callia {
+    img {
+        width: 400px;
+        margin: 0 0;
+    }
+}
+.drinks-containers{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 700px;
+    justify-content: space-between;
+        img {
+            width: 120px;
+        }
+        .luigi {
+            padding: 25% 0;
+        }
+        .captain {
+            padding: 25% 0;
+        }
+        
+}
+
+@media (max-width: 800px) {
+    body {
+        text-align: initial;
+    }
+    .drinks-containers {
+        width: 85%;
+        img {
+         width: 120px;
+        }
+
+    }
+    .cup-wine {
+        display: none;
+    }
+}
+        
